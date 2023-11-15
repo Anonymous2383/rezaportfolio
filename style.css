@@ -1,0 +1,304 @@
+/*
+Themes  : Portfolio
+Author  : reza
+License : free
+/*
+
+/*  Navigation*/
+
+
+#header {
+    background-color: rgb(0, 0, 0);
+
+}
+/* TITLES */
+.pre-title {
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: var(--secondarytextColor);
+    position: relative;
+    padding-left: 40px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 0,9rem;
+}
+
+.pre-title::before {
+    content: "";
+    width: 30px;
+    height: 10px;
+    background: var(--lineColor);
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 50%;
+}
+/* Navigation */
+nav {
+    position: relative;
+    background-color: black;
+
+}
+
+nav .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a.nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+nav a.nav-link.active,
+nav a.nav-link:hover {
+    background-color: rgb(128, 126, 126);
+    color: rgb(255, 255, 255);
+
+}
+
+/* About */
+#hero {
+    height: 720PX;
+    display: grid;
+    grid-template-columns: 1fr 1FR;
+    align-items: center;
+
+}
+
+#about {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 120px 0;
+    text-align: center;
+    
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top center;
+    -o-object-position: top center;
+}
+
+#about h1 {
+    position: relative;
+    margin: 0;
+    padding: 25px 0;
+    color: blue;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'luckiest guy', cursive;
+    text-align: center;
+}
+
+#about h4 {
+    text-align: center;
+}
+
+#about h5 {
+    position: inherit;
+    margin: 0;
+    padding: 0;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#Services {
+    position: relative;
+    padding: 50pv 0;
+    background-color: rgb(249, 250, 252);
+    
+}
+
+#Services h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Services .Services-list {
+    position: relative;
+    padding: 15px 0;
+}
+
+#Services .Services-list .Services-item {
+    position: relative;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#Services .Services-list .Services-item img {
+    width: 85%;
+}
+
+#Services .Services-list .Services-item h3 {
+    color: rgb(0, 0, 0);
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+#Services .Services-list .Services-item p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+#Services .Services-list .Services-item a.btn {
+    background-color: blue;
+    border: 2px solid blue;
+    font-size: 20px;
+    margin-top: 15px;
+    width: 50%;
+}
+
+#Services .Services-list .Services-item a.btn:hover {
+    background-color: transparent;
+    color: blue;
+
+}
+
+
+#Services .Services-item img {
+    height: 290px;
+    width: 100;
+}
+
+/* projects */
+#Project {
+    position: relative;
+    padding: 50px 0;
+}
+
+#Project h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+#Project .Project-item {
+    position: relative;
+    margin: 25px 0;
+}
+
+#Project .Project-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top center;
+    -o-object-position: top center;
+    margin-bottom: 15px;
+}
+
+#Project .project-item h3 {
+    position: relative;
+    font-size: 20px;
+    color: blue;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#Project .project-item h5 {
+    position: relative;
+    color: antiquewhite;
+    font-size: 16px;
+}
+
+/* Testimonials */
+#testimonial {
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(249, 250, 252);
+}
+
+#testimonial h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#testimonial .carusousel-item .carusousel-content {
+    text-align: center;
+    padding: 0 100px;
+}
+
+#testimonial .carusousel-item .carusousel-content img {
+    text-align: center;
+    border: 4px solid blue;
+    margin-bottom: 15px;
+}
+
+#testimonial .carusousel-item .carusousel-content h5 {
+    color: blue;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#testimonial .carusousel-item .carusousel-content p {
+    font-size: 18px;
+    
+}
+
+/* contact */
+#contact {
+    position: relative;
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#contact form {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact form label {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#contact form input[type="text"]
+#contact form input[type="email"]
+#contact form textarea {
+    position: relative;
+    padding: 8px 10px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: 2px solid blue;
+}
+
+/* footer */
+#footer {
+    position: relative;
+    padding: 10px;
+}
+
+#footer p {
+    position: relative;
+    text-align: center;
+    color: blue;
+    font-weight: 600;
+    margin: 0;
+}
+
